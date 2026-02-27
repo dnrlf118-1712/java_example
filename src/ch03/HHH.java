@@ -18,7 +18,7 @@ public class HHH {
 			System.out.println("-------------------------------------------");
 			System.out.print("선택 > ");
 
-			String input = sc.nextLine(); // 🔥 nextLine 사용
+			String input = sc.nextLine(); // nextLine 사용
 			int menu = Integer.parseInt(input); // 문자열 → 정수 변환
 
 			if (menu == 1) {
